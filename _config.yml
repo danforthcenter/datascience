@@ -1,0 +1,26 @@
+# Site settings
+title: Data Science
+email: nfahlgren@danforthcenter.org
+url: http://localhost
+description: "The Data Science Facility is one of six core facilities at the Donald Danforth Plant Science Center. We analyze large datasets to address biological problems using computing, mathematics, and statistics."
+
+# Color settings (hex-codes without the leading hash-tag)
+color:
+  primary-dark: '#000000'
+  links: '#219ab3'
+
+# Footer settings
+footer: Donald Danforth Plant Science Center
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: twitter
+    url: https://twitter.com/NoahFahlgren
+  - title: github
+    url: https://github.com/danforthcenter
+  - title: slack
+    url: https://danforthcenter.slack.com
+
+# Build settings
+markdown: kramdown
+permalink: pretty
