@@ -252,6 +252,10 @@ a:focus {
     padding-top: 100px;
 }
 
+#about h2 {
+    text-align: left;
+}
+
 .team-section {
     width: 100%;
     padding: 50px 0;
