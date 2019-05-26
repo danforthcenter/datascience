@@ -110,6 +110,17 @@ a:focus {
     background-color: rgba(255,255,255,.3);
 }
 
+.navbar-header img {
+    float: left;
+    height: 40px;
+}
+
+.img-bkg {
+    background-color: rgba(0,0,0,.4);
+    outline: none;
+    padding: 5px;
+}
+
 @media(min-width:767px) {
     .navbar {
         padding: 20px 0;
