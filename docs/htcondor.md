@@ -104,7 +104,7 @@ resources, add these requests to the job description file. In the
 example below, the job file requests 8 CPUs in addition to the default
 memory and disk request sizes.
 
-```text
+```
 ####################
 #
 # Example Vanilla Universe Job
@@ -152,7 +152,7 @@ additional job file configuration is needed.
 Copies the input file to scratch, creates all outputs in scratch, and automatically copies all outputs
 back to the submission directory.
 
-```text
+```
 ####################
 #
 # Example Vanilla Universe Job :: Using SCRATCH space
@@ -187,7 +187,7 @@ Copies the input FASTQ data to scratch, creates the Trinity output directory in 
 and copies only the Trinity.fasta result file back to the submission directory. All other
 output files are discarded.
 
-```text
+```
 universe                 = vanilla
 getenv                   = true
 
@@ -259,7 +259,7 @@ of `group` in every time `queue` is called.
 
 ### Example using cufflinks
 
-```text
+```
 ####################
 #
 # Example Vanilla Universe Job :: 
@@ -301,7 +301,7 @@ parameters for your condor job. In this example we create a file containing NCBI
 
 sra-ids.txt
 
-```text
+```
 SRR390726
 SRR390727
 SRR390728
@@ -312,7 +312,7 @@ This fastq-dump job file is configured to download and convert SRA files to FAST
 and copy the FASTQ files back to the submission directory. Four jobs will be created by this
 example.
 
-```text
+```
 ###############################################################################################
 ## Housekeeping
 ###############################################################################################
@@ -348,12 +348,12 @@ The input file can also have multiple variables in a tab-delimited format:
 
 file-of-vars.txt
 
-```text
+```
 sample1_var1    sample1_var2
 sample2_var1    sample2_var2
 ```
 
-```text
+```
 # Example snippet
 queue var1, var2 from file-of-vars.txt
 ```
@@ -387,7 +387,7 @@ The DAG input file has a basic set of commands:
 
 **Example DAG Input File**
 
-```text
+```
 JOB    perlA    jobfile_perlA.condor
 JOB    bwaA     jobfile_bwaA.condor
 JOB    bwaB     jobfile_bwaB.condor
@@ -432,13 +432,13 @@ the job file - with no changes needed to the job file itself.
 
 ##### Example DAG Wrapper File Contents:
 
-```text
+```
 JOB  perl1 condor.jobs.perl.sh
 ```
 
 ##### Example condor.jobs.perl.sh Contents:
 
-```text
+```
 universe                 = vanilla
 getenv                   = true
 
@@ -491,7 +491,7 @@ condor_q
 `condor_q` shows a table of your submitted jobs and a summary of all other
 jobs submitted.
 
-```text
+```
 OWNER     BATCH_NAME    SUBMITTED   DONE   RUN    IDLE  TOTAL JOB_IDS
 user1 ID: 116979   9/16 17:07      _      1      _      1 116979.0
 
@@ -514,7 +514,7 @@ what resources are available currently:
 condor_status -avail -state
 ```
 
-```text
+```
 Name                                      Cpu  Mem   LoadAv   KbdIdle    State       StateTime  Activ   ActvtyTime
 
 slot1@aerilon.datasci.danforthcenter.org   22 141029  0.000   0+02:11:51 Unclaimed  20+23:50:13 Idle   20+23:50:13
@@ -543,7 +543,7 @@ central manager to help users evaluate their running jobs.
 condor_fullstat
 ```
 
-```text
+```
   Cluster    Process  Owner           Host                                  CPUs    Memory (GB)    Disk (GB)    Run Time     Cmd
 ---------  ---------  --------------  ------------------------------------  ------  -------------  -----------  -----------  -------------
     54589          0  user1           aerilon.datasci.danforthcenter.org    0/4     0/10           0/1          12:07:21:38  bash
@@ -610,7 +610,7 @@ Some examples include:
 
 #### Missing/error with executable or other input file
 
-```text
+```
 [JobID]:  Request is held.
 Hold reason: Error from slot1@pallas.ddpsc.org: Failed to execute '/script.pl' with arguments Single_Astral/ Solanum,Olea: (errno=13: 'Permission denied')
 ```
@@ -623,7 +623,7 @@ solutions:
 2. Make sure the script specifies an interpreter. The first line in this example should be `#!/usr/bin/perl`.
 3. Instead of 1 or 2, set your executable to the interpreter and add the script name to arguments:
 
-```text
+```
 executable = /usr/bin/perl
 arguments = script.pl
 ```
@@ -634,7 +634,7 @@ This job was listed as "I" and ended up being the next to run in the queue. The 
 it is to find an available slot. Very rarely, the system is completely busy and even single CPU jobs will be queued
 in an idle state for a short (likely) time.
 
-```text
+```
 [jobID]:  Run analysis summary.  Of 34 machines,
      24 are rejected by your job's requirements
       0 reject your job because of their own requirements
@@ -666,7 +666,7 @@ Suggestions:
 
 This job was in "H" due to lack of resources; Condor offered a suggestion so that the job would run
 
-```text
+```
 [jobID]:  Run analysis summary.  Of 27 machines,
      27 are rejected by your job's requirements
       0 reject your job because of their own requirements
@@ -714,7 +714,7 @@ a good approach is to run one instance of the job and monitor the resource usage
 scratch disk and RAM usage, the log file produced by HTCondor gives the information you need. 
 At the end of the log file, once the job is complete, you will find the following:
 
-```text
+```
 	(1) Normal termination (return value 0)
 		Usr 0 00:44:19, Sys 0 00:04:07  -  Run Remote Usage
 		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
@@ -754,7 +754,7 @@ the course of a job's run, with the user monitoring the actual percentage of CPU
 
 Example `condor_fullstat` output:
 
-```text
+```
   Cluster    Process  Owner       Host                                CPUs    Memory (GB)    Disk (GB)    Run Time     Cmd
 ---------  ---------  ----------  ----------------------------------  ------  -------------  -----------  -----------  ---------
     40655          0  xxxxxxxxxx  scorpia.datasci.danforthcenter.org  1/40    2.5/90         90           19:21:28:54  job.sh
