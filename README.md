@@ -8,4 +8,6 @@ After updating, to rebuild the site run the following on the webserver:
 ```bash
 scl enable rh-ruby25 bash
 jekyll build -d /var/www/datascience
+ln -s /usr/share/ganglia /var/www/datascience/ganglia
+mkdocs build --site-dir /var/www/datascience/docs --clean
 ```
