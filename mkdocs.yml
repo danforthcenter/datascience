@@ -1,0 +1,20 @@
+site_name: Data Science
+site_url: https://datasci.danforthcenter.org/docs
+site_description: Documentation for the Data Science Facility at the Donald Danforth Plant Science Center
+site_author: Donald Danforth Plant Science Center
+repo_url: https://github.com/datascience
+copyright: 'Copyright &copy; 2019 Donald Danforth Plant Science Center'
+theme: readthedocs
+
+nav:
+  - Home: index.md
+  - "Getting started": gettingstarted.md
+  - "Usage policies": policies.md
+  - "Data sharing with Globus": globus.md
+  - "Computing with HTCondor": htcondor.md
+
+markdown_extensions:
+  - toc:
+      permalink: True
+  - sane_lists
+  - admonition
