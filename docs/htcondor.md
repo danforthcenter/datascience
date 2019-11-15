@@ -358,6 +358,53 @@ sample2_var1    sample2_var2
 queue var1, var2 from file-of-vars.txt
 ```
 
+## Using conda environments
+
+[conda](https://docs.conda.io/projects/conda/) is a package, dependency, and environment management system. Using
+`conda` within an HTCondor interactive session is no different than using it anywhere else, just activate the 
+environment you want (e.g. using PlantCV):
+
+```bash
+conda activate plantcv
+plantcv-workflow.py --help
+```
+
+In the example above, `plantcv-workflow.py` is only installed within the `plantcv` conda environment, so if 
+`plantcv-workflow.py` is submitted as a program in a job to the HTCondor cluster, the job will fail because the
+`plantcv` conda environment cannot be activated automatically first. To get around this issue, you can create a
+shell script that activates the environment and then runs the application.
+
+Following the example above, a shell script (`run_plantcv`) that runs `plantcv-workflow.py` would look like this if you are
+using [Miniconda](https://conda.io/miniconda.html):
+
+```bash
+#!/bin/bash
+
+source ~/miniconda3/etc/profile.d/conda.sh
+conda activate plantcv
+plantcv-workflow.py "$@"
+```
+
+The script file first sources some bash code from conda to load some functions into the job's environment. Next,
+the conda environment is activated, loading the correct software into the environment. Finally, the program is run
+and all of the command-line arguments provided are passed to the program.
+
+A simple HTCondor job that runs this script with the help flag would look like this:
+
+```
+universe         = vanilla
+getenv           = true
+executable       = /bin/bash
+arguments        = run_plantcv --help
+log              = plantcv.log
+output           = plantcv.out
+error            = plantcv.error
+request_cpus     = 1
+request_memory   = 1G
+
+queue
+```
+
 ## DAG workflows
 
 Often data processing and analysis requires running more than one program, where the output
