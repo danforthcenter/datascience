@@ -1,12 +1,9 @@
 # Welcome to Data Science Facility's documentation!
 
-## Useful links
-
 The main Data Science Facility website can be found on the
-[Danforth Center website](https://www.danforthcenter.org/scientists-research/core-technologies/datascience).
-Additional resources can be found at [https://datasci.danforthcenter.org](https://datasci.danforthcenter.org), 
-including links to the [current and historical activity](https://datasci.danforthcenter.org/ganglia/?c=Data+Science) 
-of the computing cluster and this documentation. Other services include:
+[Danforth Center website](https://www.danforthcenter.org/our-work/core-facilities/data-science/).
+
+## Quick links
 
 * Login (SSH/SFTP) server: `stargate.datasci.danforthcenter.org`
 * [HTCondor user's guide](htcondor.md)
@@ -15,3 +12,4 @@ of the computing cluster and this documentation. Other services include:
 * [Slack helpdesk](https://danforthcenter.slack.com/messages/CAALLQ0G6)
 * [GitHub](https://github.com/danforthcenter) 
 * [Docker Hub](https://hub.docker.com/u/danforthcenter)
+* [Computing cluster activity](https://datasci.danforthcenter.org/ganglia/?c=Data+Science)
