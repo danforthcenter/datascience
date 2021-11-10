@@ -53,7 +53,7 @@ export PYTHONPATH=""
 
 ## Download and install Miniconda on your local computer
 
-**Step 1**: Navigate to https://docs.conda.io/en/latest/miniconda.html with your web browser.
+**Step 1**: Navigate to [https://docs.conda.io/en/latest/miniconda.html](https://docs.conda.io/en/latest/miniconda.html) with your web browser.
 
 **Step 2**: Under the section Latest Miniconda Installer Links, click on the appropriate link for your computer.
 Typically you want "Miniconda3 Windows 64-bit," "Miniconda3 MacOSX 64-bit pkg," or "Miniconda3 Linux 64-bit."
