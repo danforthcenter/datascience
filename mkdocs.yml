@@ -12,6 +12,7 @@ nav:
   - "Usage policies": policies.md
   - "Data sharing with Globus": globus.md
   - "Computing with HTCondor": htcondor.md
+  - "Setup conda": conda.md
 
 markdown_extensions:
   - toc:
