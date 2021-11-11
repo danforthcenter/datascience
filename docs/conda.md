@@ -1,6 +1,24 @@
 # Setup conda for Python and R virtual environments
 
-## Download and install Miniconda on the computing cluster
+## Automated installation using our installer program
+
+### Step 1
+Log into stargate with a terminal.
+* * *
+
+### Step 2
+Run the installer:
+
+```bash
+install_conda
+```
+* * *
+
+### Step 3
+Log out and back in for the changes to take effect.
+* * *
+
+## Manual installation on the computing cluster
 
 ### Step 1
 Log into stargate with a terminal.
@@ -75,7 +93,7 @@ export PYTHONPATH=""
 Log out and back in for the changes to take effect.
 * * *
 
-## Download and install Miniconda on your local computer
+## Installation on your local computer
 
 ### Step 1
 Navigate to the
@@ -92,4 +110,8 @@ or **Miniconda3 Linux 64-bit**.
 
 ### Step 3
 Run the installer and allow Miniconda to be activated by default (if prompted).
+* * *
+
+### Step 4
+Log out and back in for the changes to take effect.
 * * *
