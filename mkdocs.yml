@@ -12,7 +12,10 @@ nav:
   - "Usage policies": policies.md
   - "Data sharing with Globus": globus.md
   - "Computing with HTCondor": htcondor.md
-  - "Setup conda": conda.md
+  - "Conda":
+    - "Why use conda?": conda_why.md
+    - "Setup conda": conda.md
+    - "Conda environments": conda_envs.md
 
 markdown_extensions:
   - toc:
