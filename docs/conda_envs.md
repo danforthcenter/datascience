@@ -7,7 +7,7 @@ Before working with `conda` environments, start by [installing conda](conda.md).
     You will need to have `mamba` installed first by running:
 
     ```
-    conda install -b base -c conda-forge mamba
+    conda install -n base -c conda-forge mamba
     ```
 
 After installing `conda`, the only environment will be the default called `base`. You can install anything you like in `base`
