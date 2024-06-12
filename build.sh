@@ -9,3 +9,4 @@ ln -s /data/datascience/data/fahlgren_et_al_2015_bellwether_jpeg.tar.gz /var/www
 # Temporary files
 ln -s /shares/bioinformatics/nfahlgren/projects/mrcnn/mask_rcnn_leaves_0060.h5 /var/www/datascience/mask_rcnn_leaves_0060.h5
 ln -s /home/nfahlgren/download/data.zip /var/www/datascience/data.zip
+ln -s /home/nfahlgren/download/ddpsc_network_2024.html /var/www/datascience/ddpsc_network_2024.html
