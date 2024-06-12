@@ -20,3 +20,9 @@ Below are publicly available datasets from researchers at the Donald Danforth Pl
 
 **Other files** Camera zoom calibration data: [Figshare](https://ndownloader.figshare.com/files/2084101), Soil weight and volumetric water content: [Figshare](https://ndownloader.figshare.com/files/2084096), Water treatment data: [Figshare](https://ndownloader.figshare.com/files/3255965), PlantCV output data: [Figshare](https://ndownloader.figshare.com/files/2084100), Plant trait data: [Figshare](https://ndownloader.figshare.com/files/2084098).
 
+## Time dependent genetic analysis links field and controlled environment phenotypes in the model C4 grass *Setaria*
+
+<a rel="license" href="https://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br /><span xmlns:dct="https://purl.org/dc/terms/" href="https://purl.org/dc/dcmitype/Dataset" property="dct:title" rel="dct:type">Dataset: Time dependent genetic analysis links field and controlled environment phenotypes in the model C4 grass Setaria</span> by <a xmlns:cc="https://creativecommons.org/ns#" href="https://plantcv.danforthcenter.org/pages/data-sets/setaria_height.html" property="cc:attributionName" rel="cc:attributionURL">Max J. Feldman, Rachel E. Paul, Darshi Banan, Jennifer F. Barrett, Jose Sebastian, Muh-Ching Yee, Hui Jiang, Alexander E. Lipka, Thomas P. Brutnell, José R. Dinneny, Andrew D.B. Leakey, Ivan Baxter</a> is licensed under a <a rel="license" href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.<br />Based on a work at <a xmlns:dct="https://purl.org/dc/terms/" href="https://doi.org/10.1371/journal.pgen.1006841" rel="dct:source">https://doi.org/10.1371/journal.pgen.1006841</a>
+
+**Dataset**: 151,000 PNG images. [CyVerse Data Commons](http://datacommons.cyverse.org/browse/iplant/home/shared/danforth_center/SetariaRILDrought1)
+
