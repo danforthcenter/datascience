@@ -9,7 +9,8 @@ theme: readthedocs
 nav:
   - Home: index.md
   - "Getting started": gettingstarted.md
-  - "Usage policies": policies.md  - "Conda":
+  - "Usage policies": policies.md
+  - "Conda":
     - "Why use conda?": conda_why.md
     - "Setup conda": conda.md
     - "Conda environments": conda_envs.md
