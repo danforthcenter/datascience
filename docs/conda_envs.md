@@ -17,6 +17,7 @@ conda env list
 # base                  *  /home/user/miniconda3
 # datasci                  /home/user/miniconda3/envs/datasci
 # plantcv                  /home/user/miniconda3/envs/plantcv
+
 ```
 
 The star indicates the current active environment, which you can also see listed next to your command-line prompt, for
@@ -31,6 +32,7 @@ Activate the `datasci` environment in the example above:
 
 ```bash
 conda activate datasci
+
 ```
 
 You should note the change to your command-line prompt: `(datasci) [username@ip-10-0-0-38 ~]$`
@@ -41,6 +43,7 @@ You can turn off an environment by deactivating the currently activate environme
 
 ```bash
 conda deactivate
+
 ```
 
 ## Deleting an environment
@@ -49,6 +52,7 @@ Environments can be removed, in the example below we delete the `datasci` enviro
 
 ```bash
 conda env remove -n datasci
+
 ```
 
 ## Working with conda packages
@@ -68,19 +72,22 @@ When working in an environment, you can install additional packages. For example
 A new Python package:
 
 ```bash
-mamba install -c conda-forge plantcv
+conda install -c conda-forge plantcv
+
 ```
 
 A couple R packages:
 
 ```bash
-mamba install -c conda-forge r-ggplot2 r-dplyr
+conda install -c conda-forge r-ggplot2 r-dplyr
+
 ```
 
 A specific version of a program:
 
 ```bash
-mamba install -c bioconda samtools=1.15.1
+conda install -c bioconda samtools=1.15.1
+
 ```
 
 !!! note
@@ -93,7 +100,8 @@ mamba install -c bioconda samtools=1.15.1
 For relatively simple environments, you can specify all the packages on the command-line:
 
 ```bash
-mamba create -n myenv -c conda-forge -c bioconda 'r-base>=4' r-ggplot2 samtools
+conda create -n myenv -c conda-forge -c bioconda 'r-base>=4' r-ggplot2 samtools
+
 ```
 
 ### Create a new environment from a configuration file
@@ -120,6 +128,6 @@ dependencies:
 Then to create the environment:
 
 ```bash
-mamba env create -f environment.yml
-```
+conda env create -f environment.yml
 
+```
