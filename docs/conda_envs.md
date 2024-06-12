@@ -20,7 +20,7 @@ conda env list
 ```
 
 The star indicates the current active environment, which you can also see listed next to your command-line prompt, for
-example: `(base) [user@stargate ~]$`
+example: `(base) [username@ip-10-0-0-38 ~]$`
 
 ## Activate an environment
 
@@ -33,7 +33,7 @@ Activate the `datasci` environment in the example above:
 conda activate datasci
 ```
 
-You should note the change to your command-line prompt: `(datasci) [user@stargate ~]$`
+You should note the change to your command-line prompt: `(datasci) [username@ip-10-0-0-38 ~]$`
 
 ## Deactivate and environment
 
@@ -123,8 +123,3 @@ Then to create the environment:
 mamba env create -f environment.yml
 ```
 
-Additional examples are available here: `/bioinfo/envs/configs/`
-
-## Using conda environments with HTCondor jobs
-
-See [using conda environments in HTCondor](htcondor.md#using-conda-environments).

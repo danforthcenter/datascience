@@ -1,15 +1,13 @@
 # Why use conda (or similar tools)?
 
-!!! note
-    What is [conda](https://docs.conda.io/en/latest/)?
+What is [conda](https://docs.conda.io/en/latest/)?
 
-    >Package, dependency and environment management for any language—Python, R, Ruby,
-    >Lua, Scala, Java, JavaScript, C/ C++, Fortran, and more.
+>Package, dependency and environment management for any language—Python, R, Ruby,
+>Lua, Scala, Java, JavaScript, C/ C++, Fortran, and more.
 
 ## You can use the versions of the tools you want/need
 On the computing cluster, a limited set of versions of programming language interpreters (`python`, `R`, etc.) can be
-easily installed and maintained by the core facility. For example, the cluster currently supports Python v2.7 (end of life),
-Python 3.6, and R 3.5 (the latter two of which are woefully out of date).
+easily installed and maintained by the core facility.
 
 Likewise, managing large collections of packages that work with these interpreter versions is difficult and stops working
 once the interpreter gets too outdated. Updating the interpreter is not trivial and also requires reinstalling all the
