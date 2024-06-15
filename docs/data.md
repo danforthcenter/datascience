@@ -4,7 +4,7 @@ Below are publicly available datasets from researchers at the Donald Danforth Pl
 
 ## A Versatile Phenotyping System and Analytics Platform Reveals Diverse Temporal Responses to Water Availability in *Setaria*
 
-<a rel="license" href="https://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br /><span xmlns:dct="https://purl.org/dc/terms/" href="https://purl.org/dc/dcmitype/Dataset" property="dct:title" rel="dct:type">Dataset: A Versatile Phenotyping System and Analytics Platform Reveals Diverse Temporal Responses to Water Availability in Setaria</span> by <a xmlns:cc="https://creativecommons.org/ns#" href="https://plantcv.danforthcenter.org/pages/data-sets/2013/setaria_burnin2.html" property="cc:attributionName" rel="cc:attributionURL">Noah Fahlgren, Maximillian Feldman, Malia A. Gehan, Melinda S. Wilson, Christine Shyu, Douglas W. Bryant, Steven T. Hill, Colton J. McEntee, Sankalpi N. Warnasooriya, Indrajit Kumar, Tracy Ficor, Stephanie Turnipseed, Kerrigan B. Gilbert, Thomas P. Brutnell, James, C. Carrington, Todd C. Mockler, Ivan Baxter</a> is licensed under a <a rel="license" href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.<br />Based on a work at <a xmlns:dct="https://purl.org/dc/terms/" href="https://doi.org/10.1016/j.molp.2015.06.005" rel="dct:source">https://doi.org/10.1016/j.molp.2015.06.005</a>
+<a rel="license" href="https://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br /><span xmlns:dct="https://purl.org/dc/terms/" href="https://purl.org/dc/dcmitype/Dataset" property="dct:title" rel="dct:type">Dataset: A Versatile Phenotyping System and Analytics Platform Reveals Diverse Temporal Responses to Water Availability in Setaria</span> by <a xmlns:cc="https://creativecommons.org/ns#" href="https://datasci.danforthcenter.org/data" property="cc:attributionName" rel="cc:attributionURL">Noah Fahlgren, Maximillian Feldman, Malia A. Gehan, Melinda S. Wilson, Christine Shyu, Douglas W. Bryant, Steven T. Hill, Colton J. McEntee, Sankalpi N. Warnasooriya, Indrajit Kumar, Tracy Ficor, Stephanie Turnipseed, Kerrigan B. Gilbert, Thomas P. Brutnell, James, C. Carrington, Todd C. Mockler, Ivan Baxter</a> is licensed under a <a rel="license" href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.<br />Based on a work at <a xmlns:dct="https://purl.org/dc/terms/" href="https://doi.org/10.1016/j.molp.2015.06.005" rel="dct:source">https://doi.org/10.1016/j.molp.2015.06.005</a>.
 
 **Dataset 1**: 118 GB (79,200 PNG images) [fahlgren_et_al_2015_bellwether.tar.gz](../datasets/fahlgren_et_al_2015_bellwether.tar.gz)
 
@@ -22,7 +22,36 @@ Below are publicly available datasets from researchers at the Donald Danforth Pl
 
 ## Time dependent genetic analysis links field and controlled environment phenotypes in the model C4 grass *Setaria*
 
-<a rel="license" href="https://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br /><span xmlns:dct="https://purl.org/dc/terms/" href="https://purl.org/dc/dcmitype/Dataset" property="dct:title" rel="dct:type">Dataset: Time dependent genetic analysis links field and controlled environment phenotypes in the model C4 grass Setaria</span> by <a xmlns:cc="https://creativecommons.org/ns#" href="https://plantcv.danforthcenter.org/pages/data-sets/setaria_height.html" property="cc:attributionName" rel="cc:attributionURL">Max J. Feldman, Rachel E. Paul, Darshi Banan, Jennifer F. Barrett, Jose Sebastian, Muh-Ching Yee, Hui Jiang, Alexander E. Lipka, Thomas P. Brutnell, José R. Dinneny, Andrew D.B. Leakey, Ivan Baxter</a> is licensed under a <a rel="license" href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.<br />Based on a work at <a xmlns:dct="https://purl.org/dc/terms/" href="https://doi.org/10.1371/journal.pgen.1006841" rel="dct:source">https://doi.org/10.1371/journal.pgen.1006841</a>
+<a rel="license" href="https://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br /><span xmlns:dct="https://purl.org/dc/terms/" href="https://purl.org/dc/dcmitype/Dataset" property="dct:title" rel="dct:type">Dataset: Time dependent genetic analysis links field and controlled environment phenotypes in the model C4 grass Setaria</span> by <a xmlns:cc="https://creativecommons.org/ns#" href="https://datasci.danforthcenter.org/data" property="cc:attributionName" rel="cc:attributionURL">Max J. Feldman, Rachel E. Paul, Darshi Banan, Jennifer F. Barrett, Jose Sebastian, Muh-Ching Yee, Hui Jiang, Alexander E. Lipka, Thomas P. Brutnell, José R. Dinneny, Andrew D.B. Leakey, Ivan Baxter</a> is licensed under a <a rel="license" href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.<br />Based on a work at <a xmlns:dct="https://purl.org/dc/terms/" href="https://doi.org/10.1371/journal.pgen.1006841" rel="dct:source">https://doi.org/10.1371/journal.pgen.1006841</a>.
 
 **Dataset**: 151,000 PNG images. [CyVerse Data Commons](http://datacommons.cyverse.org/browse/iplant/home/shared/danforth_center/SetariaRILDrought1)
 
+## High-throughput profiling identifies resource use efficient and abiotic stress tolerant sorghum varieties
+
+<a rel="license" href="https://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br /><span xmlns:dct="https://purl.org/dc/terms/" href="https://purl.org/dc/dcmitype/Dataset" property="dct:title" rel="dct:type">Dataset: High-throughput profiling identifies resource use efficient and abiotic stress tolerant sorghum varieties</span> by <a xmlns:cc="https://creativecommons.org/ns#" href="https://datasco.danforthcenter.org/data" property="cc:attributionName" rel="cc:attributionURL">Kira M. Veley, Jeffrey C. Berry, Sarah J. Fentress, Daniel P. Schachtman, Ivan Baxter, Rebecca Bart</a> is licensed under a <a rel="license" href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.<br />Based on a work at <a xmlns:dct="https://purl.org/dc/terms/" href="https://doi.org/10.1002/pld3.23" rel="dct:source">https://doi.org/10.1002/pld3.23</a>.
+
+**Dataset 1**: 178 GB (96,867 PNG images) [bart_sorghum_nitrogen_image_data.tar.gz](../datasets/bart_sorghum_nitrogen_image_data.tar.gz) 
+
+**Dataset 2**: 231 MB [bart_nitrogen_data_and_scripts.tar.gz](../datasets/bart_nitrogen_data_and_scripts.tar.gz)
+
+## An automated, high-throughput method for standardizing image color profiles to improve image-based plant phenotyping
+
+<p xmlns:dct="http://purl.org/dc/terms/" xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#">
+    <a rel="license" href="http://creativecommons.org/publicdomain/zero/1.0/">
+        <img src="http://i.creativecommons.org/p/zero/1.0/88x31.png" style="border-style: none;" alt="CC0" />
+    </a>
+    <br />
+    To the extent possible under law,
+    <a rel="dct:publisher" href="https://datasci.danforthcenter.org/data">
+        <span property="dct:title">Jeffrey C Berry, Noah Fahlgren, Alexandria A Pokorny, Rebecca Bart, Kira M Veley</span>
+    </a>
+    has waived all copyright and related or neighboring rights to
+    <span property="dct:title">Dataset: An automated, high-throughput method for standardizing image color profiles to improve image-based plant phenotyping</span>.
+    This work is published from:
+    <span property="vcard:Country" datatype="dct:ISO3166" content="US" about="https://doi.org/10.7717/peerj.5727">United States</span>.<br />
+    Based on work at <a xmlns:dct="https://purl.org/dc/terms/" href="https://doi.org/10.7717/peerj.5727" rel="dct:source">https://doi.org/10.7717/peerj.5727</a>.
+</p>
+
+**Dataset 1**: 143 GB (24,000 PNG images) [bart_homography_images.zip](../datasets/bart_homography_images.zip)
+
+**Dataset 2**: 8 MB [bart_homography_data_and_scripts.zip](../datasets/bart_homography_data_and_scripts.zip)
