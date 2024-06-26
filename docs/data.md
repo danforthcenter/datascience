@@ -55,3 +55,17 @@ Below are publicly available datasets from researchers at the Donald Danforth Pl
 **Dataset 1**: 143 GB (24,000 PNG images) [bart_homography_images.zip](../datasets/bart_homography_images.zip)
 
 **Dataset 2**: 8 MB [bart_homography_data_and_scripts.zip](../datasets/bart_homography_data_and_scripts.zip)
+
+## European hazelnut (*Corylus avellana* L.) genomic data
+
+Download FASTA files of the 'Jefferson' genome and transcriptome assemblies and their associated annotations, variant call format (.vcf) files of polymorphisms between 7 re-sequenced hazelnut accessions and 'Jefferson, and the improved genetic linkage map derived from GBS markers among a 136 individual F1 mapping population.
+
+For more information, visit [http://www.cavellanagenomeportal.com/](http://www.cavellanagenomeportal.com/).
+
+**Dataset**: 108MB [mockler-hazelnut-genome-data.tar.gz](../datasets/mockler-hazelnut-genome-data.tar.gz)
+
+### Citations
+
+Rowley, E.R., Vanburen, R., Bryant, E.R., Priest, H.D., Mehlenbacher, S.A., and Mockler, T.C. 2018. A Draft Genome and High-Density Genetic Map of European Hazelnut (Corylus avellana L.). *bioRxiv*. doi: [https://doi.org/10.1101/469015](https://doi.org/10.1101/469015).
+
+Rowley, E.R., Fox, S.A, Bryant, D.W, Sullivan, C., Givan, S. A., Mehlenbacher, S.A., and Mockler, T.C. 2012.  Assembly and characterization of the European Hazelnut (Corylus avellana L.) ‘Jefferson’ transcriptome.  *Crop Science*. 52: 2679-2686

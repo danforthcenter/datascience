@@ -9,6 +9,7 @@ ln -s /data/bart/data/bart_sorghum_nitrogen_image_data.tar.gz /var/www/datascien
 ln -s /data/bart/data/bart_nitrogen_data_and_scripts.tar.gz /var/www/datascience/datasets/bart_nitrogen_data_and_scripts.tar.gz
 ln -s /data/bart/data/bart_homography_images.zip /var/www/datascience/datasets/bart_homography_images.zip
 ln -s /data/bart/data/bart_homography_data_and_scripts.zip /var/www/datascience/datasets/bart_homography_data_and_scripts.zip
+ln -s /data/datascience/data/mockler-hazelnut-genome-data.tar.gz /var/www/datascience/datasets/mockler-hazelnut-genome-data.tar.gz
 
 # Temporary files
 ln -s /shares/bioinformatics/nfahlgren/projects/mrcnn/mask_rcnn_leaves_0060.h5 /var/www/datascience/mask_rcnn_leaves_0060.h5
