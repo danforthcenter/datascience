@@ -14,9 +14,9 @@ conda env list
 # Example output
 # conda environments:
 #
-# base                  *  /home/user/miniconda3
-# datasci                  /home/user/miniconda3/envs/datasci
-# plantcv                  /home/user/miniconda3/envs/plantcv
+# base                  *  /home/user/miniforge3
+# datasci                  /home/user/miniforge3/envs/datasci
+# plantcv                  /home/user/miniforge3/envs/plantcv
 
 ```
 
