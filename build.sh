@@ -12,3 +12,4 @@ ln -s /data/bart/data/bart_homography_images.zip /var/www/datascience/datasets/b
 ln -s /data/bart/data/bart_homography_data_and_scripts.zip /var/www/datascience/datasets/bart_homography_data_and_scripts.zip
 ln -s /data/datascience/data/mockler-hazelnut-genome-data.tar.gz /var/www/datascience/datasets/mockler-hazelnut-genome-data.tar.gz
 ln -s /data/datascience/data/workshops/ggplot-Workshop.zip /var/www/datascience/workshops/ggplot-Workshop.zip
+ln -s /data/datascience/data/workshops/pcvr-workshop.zip /var/www/datascience/workshops/pcvr-workshop.zip
