@@ -14,3 +14,4 @@ ln -s /data/datascience/data/mockler-hazelnut-genome-data.tar.gz /var/www/datasc
 ln -s /data/datascience/data/workshops/ggplot-Workshop.zip /var/www/datascience/workshops/ggplot-Workshop.zip
 ln -s /data/datascience/data/workshops/pcvr-workshop.zip /var/www/datascience/workshops/pcvr-workshop.zip
 ln -s /data/datascience/data/workshops/single-plant-analysis-tutorial.zip /var/www/datascience/workshops/single-plant-analysis-tutorial.zip
+ln -s /data/datascience/data/workshops/multiple-plant-analysis-tutorial.zip /var/www/datascience/workshops/multiple-plant-analysis-tutorial.zip
