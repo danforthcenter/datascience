@@ -16,3 +16,4 @@ ln -s /data/datascience/data/workshops/pcvr-workshop.zip /var/www/datascience/wo
 ln -s /data/datascience/data/workshops/single-plant-analysis-tutorial.zip /var/www/datascience/workshops/single-plant-analysis-tutorial.zip
 ln -s /data/datascience/data/workshops/multiple-plant-analysis-tutorial.zip /var/www/datascience/workshops/multiple-plant-analysis-tutorial.zip
 ln -s /data/datascience/data/workshops/hyperspectral-data-tutorial.zip /var/www/datascience/workshops/hyperspectral-data-tutorial.zip
+ln -s /data/datascience/data/workshops/naive-bayes-classifier-workshop.zip /var/www/datascience/workshops/naive-bayes-classifier-workshop.zip
