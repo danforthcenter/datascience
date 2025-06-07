@@ -19,3 +19,4 @@ ln -s /data/datascience/data/workshops/hyperspectral-data-tutorial.zip /var/www/
 ln -s /data/datascience/data/workshops/naive-bayes-classifier-workshop.zip /var/www/datascience/workshops/naive-bayes-classifier-workshop.zip
 ln -s /data/datascience/data/workshops/bean-phenotyping-lab.zip /var/www/datascience/workshops/bean-phenotyping-lab.zip
 ln -s /data/datascience/data/workshops/stats-tests-r-workshops.zip /var/www/datascience/workshops/stats-tests-r-workshops.zip
+ln -s /data/datascience/data/workshops/tidyr-dplyr-Workshop.zip /var/www/datascience/workshops/tidyr-dplyr-Workshop.zip
