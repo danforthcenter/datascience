@@ -21,3 +21,4 @@ ln -s /data/datascience/data/workshops/bean-phenotyping-lab.zip /var/www/datasci
 ln -s /data/datascience/data/workshops/stats-tests-r-workshops.zip /var/www/datascience/workshops/stats-tests-r-workshops.zip
 ln -s /data/datascience/data/workshops/tidyr-dplyr-Workshop.zip /var/www/datascience/workshops/tidyr-dplyr-Workshop.zip
 ln -s /data/datascience/data/workshops/power-analysis-workshop.zip /var/www/datascience/workshops/power-analysis-workshop.zip
+ln -s /data/datascience/data/workshops/troubleshooting-workshop.zip /var/www/datascience/workshops/troubleshooting-workshop.zip
