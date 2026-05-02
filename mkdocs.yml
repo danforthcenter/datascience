@@ -3,8 +3,10 @@ site_url: https://datasci.danforthcenter.org
 site_description: Documentation for the Data Science Facility at the Donald Danforth Plant Science Center
 site_author: Donald Danforth Plant Science Center
 repo_url: https://github.com/datascience
-copyright: 'Copyright &copy; 2024 Donald Danforth Plant Science Center'
-theme: readthedocs
+copyright: 'Copyright &copy; 2026 Donald Danforth Plant Science Center'
+theme:
+  name: material
+  logo: /img/datascience.png
 
 nav:
   - Home: index.md
@@ -14,6 +16,11 @@ nav:
     - "Why use conda?": conda_why.md
     - "Setup conda": conda.md
     - "Conda environments": conda_envs.md
+  - "AWS":
+    - "Accessing AWS": aws.md
+    - "AWS S3": aws_s3.md
+    - "SOCA": aws_soca.md
+  - "Computing with HTCondor": htcondor.md
   - "Data": data.md
 
 markdown_extensions:
