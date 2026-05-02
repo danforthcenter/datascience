@@ -44,7 +44,7 @@ For now we will primarily use the vanilla universe.
 
 !!! note
     Currently all HTCondor transactions can be done from `stargate.datasci.danforthcenter.org` and
-    `jupyter.datasci.danforthcenter.org`.
+    [https://jupyter.datasci.danforthcenter.org](https://jupyter.datasci.danforthcenter.org).
 
 For work that needs to be done outside of the queue
 (e.g. software development/debugging, small file operations, etc.),
