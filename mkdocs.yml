@@ -20,7 +20,7 @@ nav:
     - "Accessing AWS": aws.md
     - "AWS S3": aws_s3.md
     - "SOCA": aws_soca.md
-  - "Computing with HTCondor": htcondor.md
+  - "HTCondor": htcondor.md
   - "Data": data.md
 
 markdown_extensions:
