@@ -46,7 +46,7 @@ Use the AWS CLI program v2:
 Create an SSO profile for an account and permission set (e.g. `datascience` > `S3ReadWrite`):
 
 ```bash
-aws configure sso
+aws configure sso --profile default
 ```
 
 The information needed to answer the configuration questions can be found at the SSO portal access via Okta.
@@ -58,7 +58,7 @@ Further reading: [https://docs.aws.amazon.com/cli/latest/userguide/sso-configure
 #### Example
 
 ```bash
-aws configure sso
+aws configure sso --profile default
 
 SSO session name (Recommended): okta
 SSO start URL [None]: add-our-start-url-here
@@ -72,7 +72,7 @@ SSO registration scopes [sso:account:access]: sso:account:access
 # If you name your profile "default" it will be used when no profile is specified
 
 # To reauthenticate later:
-aws sso login --profile datascience
+aws sso login
 ```
 
 ### Reauthenticate
@@ -80,8 +80,12 @@ aws sso login --profile datascience
 After configuring a profile, you periodically need to log in again:
 
 ```bash
-aws sso login --profile <profile name>
+aws sso login
 ```
+
+!!! note
+    If you have multiple profiles, you can specify which one to log in to with the `--profile` flag.
+    If you only have one profile, it will be used by default.
 
 ### Authentication session duration
 
