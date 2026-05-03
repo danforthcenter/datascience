@@ -5,7 +5,7 @@ Authentication with AWS resources uses the Danforth Center Single Sign-On servic
 ## AWS web console
 
 The web console is used to access the accounts you have access to (e.g. your lab) and any services enabled in the account
-(e.g. S3). After logging in through Okta, you will see a list of AWS accounts you have access to. Expand an account to see
+(e.g. S3). After logging in through Okta (DDPSC - AWS SSO), you will see a list of AWS accounts you have access to. Expand an account to see
 the available roles.
 
 Two roles may be available depending on your account:
