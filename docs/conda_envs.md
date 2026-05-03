@@ -17,7 +17,6 @@ conda env list
 # base                  *  /home/user/miniforge3
 # datasci                  /home/user/miniforge3/envs/datasci
 # plantcv                  /home/user/miniforge3/envs/plantcv
-
 ```
 
 The star indicates the current active environment, which you can also see listed next to your command-line prompt, for
@@ -32,7 +31,6 @@ Activate the `datasci` environment in the example above:
 
 ```bash
 conda activate datasci
-
 ```
 
 You should note the change to your command-line prompt: `(datasci) [username@ip-10-0-0-38 ~]$`
@@ -43,7 +41,6 @@ You can turn off an environment by deactivating the currently activate environme
 
 ```bash
 conda deactivate
-
 ```
 
 ## Deleting an environment
@@ -52,7 +49,6 @@ Environments can be removed, in the example below we delete the `datasci` enviro
 
 ```bash
 conda env remove -n datasci
-
 ```
 
 ## Working with conda packages
@@ -73,21 +69,18 @@ A new Python package:
 
 ```bash
 conda install -c conda-forge plantcv
-
 ```
 
 A couple R packages:
 
 ```bash
 conda install -c conda-forge r-ggplot2 r-dplyr
-
 ```
 
 A specific version of a program:
 
 ```bash
 conda install -c bioconda samtools=1.15.1
-
 ```
 
 !!! note
@@ -101,7 +94,6 @@ For relatively simple environments, you can specify all the packages on the comm
 
 ```bash
 conda create -n myenv -c conda-forge -c bioconda 'r-base>=4' r-ggplot2 samtools
-
 ```
 
 ### Create a new environment from a configuration file
@@ -129,5 +121,4 @@ Then to create the environment:
 
 ```bash
 conda env create -f environment.yml
-
 ```

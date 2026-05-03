@@ -11,7 +11,6 @@ Run the installer:
 
 ```bash
 setup_conda
-
 ```
 * * *
 
@@ -37,4 +36,3 @@ Run the installer and allow Miniforge to be activated by default (if prompted).
 
 ### Step 4
 Log out and back in for the changes to take effect.
-* * *
