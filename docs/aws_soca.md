@@ -302,62 +302,64 @@ When finished, close the session and then click **Delete Session** to shut down 
 
 ## Installed software
 
-| Package | Version |
-|---|---|
-| aws | 2.15.21 |
-| bcftools | 1.19 |
-| bedtools | 2.31.1 |
-| Bioperl | 1.7.8 |
-| bismark | 0.22.3 |
-| bowtie2 | 2.5.3 |
-| bwa | 0.7.17-r1198-dirty |
-| cap3 | 02/10/15 |
-| CRISPResso2 | 07/01/2025 |
-| cutadapt | 5.0 |
-| deeptools | 3.5.5 |
-| emapper.py | 2.1.13 |
-| epic2 | 0.0.52 |
-| fastqc | 0.12.1 |
-| flye | 2.9.6-b1802 |
-| gatk | 4.6.2.0 |
-| gffread | 0.12.7 |
-| go2sum | |
-| hisat2 | 2.2.1 |
-| hmmer | 3.4 |
-| htslib | 1.19.1 |
-| idr | 2.0.4.2 |
-| interproscan | 5.69-101.0 |
-| jellyfish | 2.3.1 |
-| job-template | 1 |
-| kallisto | 0.46.1 |
-| macs3 | 3.0.3 |
-| mafft | v7.525 |
-| minimap2 | 2.26-r1175 |
-| mount-s3 | 1.7.1 |
-| multiqc | 1.28 |
-| mummer | 4.0.0rc1 |
-| muscle | 5.1.0 |
-| ncbi-blast | 2.15.0+ |
-| nextflow | 23.10.1.5891 |
-| picard | 3.1.1 |
-| plink | 1.07 |
-| plink2 | 2.00a6LM |
-| salmon | 1.10.0 |
-| samtools | 1.19.2 |
-| setup_conda | 1 |
-| singularity | 4.1.1 |
-| snpEff | 5.2a |
-| SnpSift | 5.2 |
-| spades | 4.1.0 |
-| sra-tools | 3.0.10 |
-| STAR | 2.7.11b |
-| stringtie | 2.2.1 |
-| tmux | 3.4 |
-| trimmomatic | 0.39 |
-| trim_galore | 0.6.10 |
-| Trinity | 2.15.1 |
-| vcftools | 0.1.16 |
-| whatshap | 2.2 |
+| Package      | SOCA               | stargate    |
+| ------------ | ------------------ | ----------- |
+| aws          | 2.36.1             | 2.36.1      |
+| bcftools     | 1.19               | NA          |
+| bedtools     | 2.31.1             | NA          |
+| Bioperl      | 1.7.8              | NA          |
+| bismark      | 0.22.3             | NA          |
+| bowtie       | NA                 | 1.3.1.      |
+| bowtie2      | 2.5.3              | NA          |
+| bwa          | 0.7.17-r1198-dirty | NA          |
+| cap3         | 02/10/15           | NA          |
+| CRISPResso2  | 07/01/2025         | NA          |
+| cutadapt     | 5.0                | NA          |
+| deeptools    | 3.5.5              | NA          |
+| emapper.py   | 2.1.13             | 2.1.13      |
+| epic2        | 0.0.52             | NA          |
+| fastqc       | 0.12.1             | NA          |
+| flye         | 2.9.6-b1802        | 2.9.6-b1802 |
+| gatk         | 4.6.2.0            | NA          |
+| gffread      | 0.12.7             | NA          |
+| go2sum       |                    | NA          |
+| hisat2       | 2.2.1              | NA          |
+| hmmer        | 3.4                | NA          |
+| htslib       | 1.19.1             | 1.21        |
+| idr          | 2.0.4.2            | NA          |
+| interproscan | 5.69-101.0         | NA          |
+| jellyfish    | 2.3.1              | NA          |
+| job-template | 1                  | NA          |
+| kallisto     | 0.46.1             | NA          |
+| macs3        | 3.0.3              | NA          |
+| mafft        | v7.525             | NA          |
+| minimap2     | 2.26-r1175         | NA          |
+| mount-s3     | 1.7.1              | NA          |
+| multiqc      | 1.28               | NA          |
+| mummer       | 4.0.0rc1           | NA          |
+| muscle       | 5.1.0              | NA          |
+| ncbi-blast   | 2.15.0+            | NA          |
+| nextflow     | 23.10.1.5891       | NA          |
+| picard       | 3.1.1              | NA          |
+| plink        | 1.07               | NA          |
+| plink2       | 2.00a6LM           | NA          |
+| salmon       | 1.10.0             | NA          |
+| samtools     | 1.19.2             | 1.21        |
+| setup_conda  | 1                  | NA          |
+| singularity  | 4.1.1              | NA          |
+| snpEff       | 5.2a               | NA          |
+| SnpSift      | 5.2                | NA          |
+| spades       | 4.1.0              | NA          |
+| sra-tools    | 3.0.10             | NA          |
+| STAR         | 2.7.11b            | NA          |
+| stringtie    | 2.2.1              | NA          |
+| tabix        | 1.19.1             | 1.21        |
+| tmux         | 3.4                | NA          |
+| trimmomatic  | 0.39               | NA          |
+| trim_galore  | 0.6.10             | NA          |
+| Trinity      | 2.15.1             | NA          |
+| vcftools     | 0.1.16             | NA          |
+| whatshap     | 2.2                | NA          |
 
 ---
 
