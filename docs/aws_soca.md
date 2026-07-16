@@ -341,10 +341,11 @@ When finished, close the session and then click **Delete Session** to shut down 
 | mummer       | 4.0.0rc1           | NA          |
 | muscle       | 5.1.0              | NA          |
 | ncbi-blast   | 2.15.0+            | NA          |
-| nextflow     | 23.10.1.5891       | NA          |
+| nextflow     | 26.04.6            | 26.04.6     |
 | picard       | 3.1.1              | NA          |
 | plink        | 1.07               | NA          |
 | plink2       | 2.00a6LM           | NA          |
+| quast        | 5.3.0              | 5.3.0       |
 | salmon       | 1.10.0             | NA          |
 | samtools     | 1.19.2             | 1.21        |
 | setup_conda  | 1                  | 1           |
