@@ -323,6 +323,7 @@ When finished, close the session and then click **Delete Session** to shut down 
 | gatk         | 4.6.2.0            | NA          |
 | gffread      | 0.12.7             | NA          |
 | go2sum       |                    | NA          |
+| hifiasm_meta | 0.13-r308          | 0.13-r308   |
 | hisat2       | 2.2.1              | NA          |
 | hmmer        | 3.4                | NA          |
 | htslib       | 1.19.1             | 1.21        |
@@ -333,6 +334,7 @@ When finished, close the session and then click **Delete Session** to shut down 
 | kallisto     | 0.46.1             | NA          |
 | macs3        | 3.0.3              | NA          |
 | mafft        | v7.525             | NA          |
+| metaMDBG     | 1.4                | 1.4         |
 | minimap2     | 2.26-r1175         | NA          |
 | mount-s3     | 1.7.1              | NA          |
 | multiqc      | 1.28               | NA          |
@@ -345,7 +347,7 @@ When finished, close the session and then click **Delete Session** to shut down 
 | plink2       | 2.00a6LM           | NA          |
 | salmon       | 1.10.0             | NA          |
 | samtools     | 1.19.2             | 1.21        |
-| setup_conda  | 1                  | NA          |
+| setup_conda  | 1                  | 1           |
 | singularity  | 4.1.1              | NA          |
 | snpEff       | 5.2a               | NA          |
 | SnpSift      | 5.2                | NA          |
