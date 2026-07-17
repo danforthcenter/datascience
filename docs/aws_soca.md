@@ -334,6 +334,7 @@ When finished, close the session and then click **Delete Session** to shut down 
 | kallisto     | 0.46.1             | NA          |
 | macs3        | 3.0.3              | NA          |
 | mafft        | v7.525             | NA          |
+| metaBAT2     | 2.18_23            | 2.18_23     |
 | metaMDBG     | 1.4                | 1.4         |
 | minimap2     | 2.26-r1175         | NA          |
 | mount-s3     | 1.7.1              | NA          |
