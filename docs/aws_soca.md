@@ -309,7 +309,7 @@ When finished, close the session and then click **Delete Session** to shut down 
 | bedtools     | 2.31.1             | NA          |
 | Bioperl      | 1.7.8              | NA          |
 | bismark      | 0.22.3             | NA          |
-| bowtie       | NA                 | 1.3.1.      |
+| bowtie       | NA                 | 1.3.1       |
 | bowtie2      | 2.5.3              | NA          |
 | bwa          | 0.7.17-r1198-dirty | NA          |
 | cap3         | 02/10/15           | NA          |
@@ -334,6 +334,7 @@ When finished, close the session and then click **Delete Session** to shut down 
 | kallisto     | 0.46.1             | NA          |
 | macs3        | 3.0.3              | NA          |
 | mafft        | v7.525             | NA          |
+| maxbin2      | 2.2.7              | 2.2.7       |
 | metaBAT2     | 2.18_23            | 2.18_23     |
 | metaMDBG     | 1.4                | 1.4         |
 | minimap2     | 2.26-r1175         | NA          |
