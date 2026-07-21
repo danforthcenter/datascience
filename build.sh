@@ -22,5 +22,3 @@ ln -s /data/datascience/data/workshops/stats-tests-r-workshops.zip /var/www/data
 ln -s /data/datascience/data/workshops/tidyr-dplyr-Workshop.zip /var/www/datascience/workshops/tidyr-dplyr-Workshop.zip
 ln -s /data/datascience/data/workshops/power-analysis-workshop.zip /var/www/datascience/workshops/power-analysis-workshop.zip
 ln -s /data/datascience/data/workshops/troubleshooting-workshop.zip /var/www/datascience/workshops/troubleshooting-workshop.zip
-ln -s /data/datascience/data/test.gif /var/www/datascience/test.gif
-ln -s /data/datascience/data/test.jpg /var/www/datascience/test.jpg
