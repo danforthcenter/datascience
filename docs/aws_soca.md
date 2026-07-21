@@ -343,6 +343,7 @@ When finished, close the session and then click **Delete Session** to shut down 
 | multiqc      | 1.28               | NA           |
 | mummer       | 4.0.0rc1           | NA           |
 | muscle       | 5.1.0              | NA           |
+| NanoPlot     | 1.47.1             | 1.47.1       |
 | ncbi-blast   | 2.15.0+            | NA           |
 | nextflow     | 26.04.6            | 26.04.6      |
 | picard       | 3.1.1              | 3.4.0        |
