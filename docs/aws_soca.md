@@ -305,6 +305,7 @@ When finished, close the session and then click **Delete Session** to shut down 
 | Package      | SOCA               | stargate     |
 | ------------ | ------------------ | ------------ |
 | aws          | 2.36.1             | 2.36.1       |
+| bakta        | 1.12.0             | 1.12.0       |
 | bcftools     | 1.19               | 1.24         |
 | bedtools     | 2.31.1             | 2.31.1       |
 | Bioperl      | 1.7.8              | NA           |
