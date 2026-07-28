@@ -325,6 +325,7 @@ When finished, close the session and then click **Delete Session** to shut down 
 | gatk         | 4.6.2.0            | NA           |
 | gffread      | 0.12.7             | NA           |
 | go2sum       |                    | NA           |
+| GTDB-Tk      | 2.7.2              | 2.7.2        |
 | hifiasm_meta | 0.13-r308          | 0.13-r308    |
 | hisat2       | 2.2.1              | NA           |
 | hmmer        | 3.4                | NA           |
