@@ -314,6 +314,7 @@ When finished, close the session and then click **Delete Session** to shut down 
 | bowtie2      | 2.5.3              | 2.5.5        |
 | bwa          | 0.7.17-r1198-dirty | 0.7.19-r1273 |
 | cap3         | 02/10/15           | NA           |
+| CAT_pack     | NA                 | 6.0          |
 | checkm2      | 1.1.0              | 1.1.0        |
 | concoct      | 1.1.0              | 1.1.0        |
 | CRISPResso2  | 07/01/2025         | NA           |
