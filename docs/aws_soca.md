@@ -321,6 +321,7 @@ When finished, close the session and then click **Delete Session** to shut down 
 | deeptools    | 3.5.5              | NA           |
 | emapper.py   | 2.1.13             | 2.1.13       |
 | epic2        | 0.0.52             | NA           |
+| eukcc        | NA                 | 2.1.2        |
 | fastqc       | 0.12.1             | 0.12.1       |
 | flye         | 2.9.6-b1802        | 2.9.6-b1802  |
 | gatk         | 4.6.2.0            | NA           |
