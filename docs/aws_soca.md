@@ -314,6 +314,7 @@ When finished, close the session and then click **Delete Session** to shut down 
 | bowtie2      | 2.5.3              | 2.5.5        |
 | bwa          | 0.7.17-r1198-dirty | 0.7.19-r1273 |
 | cap3         | 02/10/15           | NA           |
+| CAT_pack     | NA                 | 6.0          |
 | checkm2      | 1.1.0              | 1.1.0        |
 | concoct      | 1.1.0              | 1.1.0        |
 | CRISPResso2  | 07/01/2025         | NA           |
@@ -321,6 +322,7 @@ When finished, close the session and then click **Delete Session** to shut down 
 | deeptools    | 3.5.5              | NA           |
 | emapper.py   | 2.1.13             | 2.1.13       |
 | epic2        | 0.0.52             | NA           |
+| eukcc        | NA                 | 2.1.2        |
 | fastqc       | 0.12.1             | 0.12.1       |
 | flye         | 2.9.6-b1802        | 2.9.6-b1802  |
 | gatk         | 4.6.2.0            | NA           |
