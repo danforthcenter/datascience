@@ -320,6 +320,7 @@ When finished, close the session and then click **Delete Session** to shut down 
 | CRISPResso2  | 07/01/2025         | NA           |
 | cutadapt     | 5.0                | 5.2          |
 | deeptools    | 3.5.5              | NA           |
+| drep         | 3.7.1              | 3.7.1        |
 | emapper.py   | 2.1.13             | 2.1.13       |
 | epic2        | 0.0.52             | NA           |
 | eukcc        | NA                 | 2.1.2        |
